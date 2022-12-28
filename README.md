@@ -4,6 +4,9 @@
 
 > Calculadora simples feita com JavaScript
 
+## Link para visualização
+https://herbertribeiro19.github.io/CalculadoraJS
+
 ## Tecnologias Utilizadas
 - HTML;
 - CSS; 
