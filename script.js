@@ -28,6 +28,8 @@ function calculadora(){
     }
 }
 
+//o Swal substitui o Alert, deixando o design mais bonito.
+
 
 // let opcao = prompt ("Escolha uma opção: 1 soma, 2 subtracao, 3 multiplicacao, 4 divisao.");
 // let soma, div, mult, sub, resultado;
