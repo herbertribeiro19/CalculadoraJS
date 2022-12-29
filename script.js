@@ -3,31 +3,30 @@ function calculadora(){
         let num1 = document.getElementById("txt1").value;
         let num2 = document.getElementById("txt2").value;
         let total = (parseInt(num1)+parseInt(num2));
-        alert(`O valor total da soma é: ${total}`);
+        swal(`O valor total da soma é:`, `${total}`);
     }
     else if (document.getElementById("txt0").value == 2) {
         let num1 = document.getElementById("txt1").value;
         let num2 = document.getElementById("txt2").value;
         let total = (num1-num2);
-        alert(`O valor total da subtracao é: ${total}`);
+        swal(`O valor total da subtração é:`, `${total}`);
     }
     else if (document.getElementById("txt0").value == 3) {
         let num1 = document.getElementById("txt1").value;
         let num2 = document.getElementById("txt2").value;
         let total = (num1*num2);
-        alert(`O valor total da multiplicação é: ${total}`);
+        swal(`O valor total da multiplicação é:`, `${total}`);
     }
     else if (document.getElementById("txt0").value == 4) {
         let num1 = document.getElementById("txt1").value;
         let num2 = document.getElementById("txt2").value;
         let total = (num1/num2);
-        alert(`O valor total da divisão é: ${total}`);
+        swal(`O valor total da divisão é:`, `${total}`);
     }
     else{
-        alert("ERRO! A opção está inválida!");
+        swal(`ERRO!`, `A opção está inválida!`);
     }
 }
-
 
 
 // let opcao = prompt ("Escolha uma opção: 1 soma, 2 subtracao, 3 multiplicacao, 4 divisao.");
